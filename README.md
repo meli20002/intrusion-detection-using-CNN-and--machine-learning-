@@ -1,2 +1,20 @@
 # intrusion-detection-using-machine-learning-
-A comprehensive implementation of a Machine Learning-based Intrusion Detection System (IDS) for network security. This project demonstrates how to detect malicious network activities using various ML algorithms trained on the NSL-KDD dataset.
+This project uses machine learning and deep learning (CNN) to detect network intrusions based on the NSL-KDD dataset.
+
+# Features
+Data preprocessing and encoding
+Neural network model for classification
+Evaluation metrics: accuracy, precision, recall, F1-score
+# Usage
+Place the NSL-KDD data files in the data folder.
+Run the notebook CNN.ipynb  to preprocess data, train the model, and evaluate results.
+Requirements
+Python
+PyTorch
+scikit-learn
+pandas
+numpy
+# How it works
+Categorical features are one-hot encoded.
+Data is normalized.
+A CNN model is trained to classify normal vs. attack traffic
